@@ -2,6 +2,6 @@
 
 Functional expression evaluator with binary/unary operators and priority.
 
-val r = calc( "9 * ( 18+ ( 6 - 2 * 29 +18))" )
+val r = calc( " 3.93748521E-2 + 0.683629E1 / (0.4 - 8 * 3.74) * 0.022E2 " )
 
-println(r) // returns -144
+println(r) // returns -0.4701047549460704
